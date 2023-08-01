@@ -1,0 +1,121 @@
+@media only screen and (max-width:576px) {
+    /* nav section */
+    .nav-item,.header-nav{
+        flex-direction: column;
+        gap: 19px;
+    }
+    /* setion of banner */
+    .banner-text h3{
+        font-size: 29px;
+    }
+    .banner-text h2{
+        font-size: 69px;
+        margin-top: 14px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .banner-content{
+        flex-wrap: wrap;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .gamer-img img{
+        width: 100%;
+        height: auto;
+    }
+    .gamer-container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .gamer-content, .btn{
+        text-align: center;
+        margin: 24px 0;
+    }
+     /* section of instanly  */
+     .container{
+        margin-top: 59px;
+        gap: 0;
+        flex-wrap: wrap;
+     }
+     .paragraph{
+        text-align: center;
+        margin-top: 19px 0;
+     }
+    .overlay-img{
+        right: 24px;
+        top: -100px;
+    }
+    /* section of categories */
+    .categories-container{
+        width: 90%;
+
+    }
+    .item{
+        flex-basis: 30%;
+        text-align: center;
+        align-items: center;
+    }
+    /* footer section */
+    .logo{
+        justify-content: center;
+    }
+    .nav{
+        align-items: normal;
+        width: auto;
+    }
+    .nav ul{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .footer-container{
+        display: flex;
+    }
+    .footer-area{
+        width: auto;
+        height: auto;
+    }
+    .social-icon{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        gap: 10px;
+        align-items: center;
+    }
+    /* section of video */
+    .v-heading{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .video-card{
+        flex-wrap: wrap;
+    }
+    .instantly-header{
+        text-align: center;
+        font-size: 31px;
+        line-height: normal;
+    }
+    .card-paragraph{
+        padding: 24px 0;
+    }    
+}
+/* tablet responsive */
+@media screen and (max-width:768px) {
+    /* header section */
+/**.header-nav{
+    flex-direction:column;   
+}
+.logo{
+    margin-bottom: 24px;
+}
+
+/* banner section */
+.banner-content{
+    flex-direction: column;
+}
+.banner-img img{
+    width: 100%;
+    }   
+
+}
+
